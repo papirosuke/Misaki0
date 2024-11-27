@@ -1,0 +1,206 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamAngleX",
+			"GroupId": "",
+			"Name": "角度 X"
+		},
+		{
+			"Id": "ParamAngleY",
+			"GroupId": "",
+			"Name": "角度 Y"
+		},
+		{
+			"Id": "ParamBow",
+			"GroupId": "",
+			"Name": "おじぎ"
+		},
+		{
+			"Id": "ParamNoridashi",
+			"GroupId": "",
+			"Name": "乗り出し"
+		},
+		{
+			"Id": "ParamFHC",
+			"GroupId": "",
+			"Name": "前髪C"
+		},
+		{
+			"Id": "ParamFHC2",
+			"GroupId": "",
+			"Name": "前髪C２"
+		},
+		{
+			"Id": "ParamSHR",
+			"GroupId": "",
+			"Name": "横髪R"
+		},
+		{
+			"Id": "ParamSHR2",
+			"GroupId": "",
+			"Name": "横髪R2"
+		},
+		{
+			"Id": "ParamSHL",
+			"GroupId": "",
+			"Name": "横髪L"
+		},
+		{
+			"Id": "ParamSHL2",
+			"GroupId": "",
+			"Name": "横髪L2"
+		},
+		{
+			"Id": "ParamBrowL",
+			"GroupId": "ParamGroup",
+			"Name": "左眉内 変形"
+		},
+		{
+			"Id": "ParamBrowR",
+			"GroupId": "ParamGroup",
+			"Name": "右眉内 変形"
+		},
+		{
+			"Id": "ParamEyeOpenL",
+			"GroupId": "ParamGroup",
+			"Name": "左目の開閉"
+		},
+		{
+			"Id": "ParamEyeOpenR",
+			"GroupId": "ParamGroup",
+			"Name": "右目の開閉"
+		},
+		{
+			"Id": "ParamEyeBallX",
+			"GroupId": "ParamGroup",
+			"Name": "目玉X"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"GroupId": "ParamGroup",
+			"Name": "目玉Y"
+		},
+		{
+			"Id": "ParamMouthForm",
+			"GroupId": "ParamGroup",
+			"Name": "口　変形"
+		},
+		{
+			"Id": "ParamMouthOpenY",
+			"GroupId": "ParamGroup",
+			"Name": "口　開閉"
+		}
+	],
+	"ParameterGroups": [
+		{
+			"Id": "ParamGroup",
+			"GroupId": "",
+			"Name": "ニュートラル"
+		}
+	],
+	"Parts": [
+		{
+			"Id": "GeminoidF",
+			"Name": "GeminoidF"
+		},
+		{
+			"Id": "PartSketch0",
+			"Name": "[ 下絵 ]"
+		},
+		{
+			"Id": "Part43",
+			"Name": "頭部"
+		},
+		{
+			"Id": "Part55",
+			"Name": "トップス"
+		},
+		{
+			"Id": "Part56",
+			"Name": "首"
+		},
+		{
+			"Id": "Part57",
+			"Name": "鎖骨"
+		},
+		{
+			"Id": "Part58",
+			"Name": "襟裏"
+		},
+		{
+			"Id": "Part59",
+			"Name": "腕L"
+		},
+		{
+			"Id": "Part61",
+			"Name": "スカート"
+		},
+		{
+			"Id": "Part62",
+			"Name": "足"
+		},
+		{
+			"Id": "Part63",
+			"Name": "後ろ髪"
+		},
+		{
+			"Id": "Part44",
+			"Name": "前髪"
+		},
+		{
+			"Id": "Part",
+			"Name": "ハイライト"
+		},
+		{
+			"Id": "Part7",
+			"Name": "顔パーツ_ニュートラル"
+		},
+		{
+			"Id": "Part53",
+			"Name": "輪郭"
+		},
+		{
+			"Id": "Part54",
+			"Name": "耳"
+		},
+		{
+			"Id": "Part60",
+			"Name": "手"
+		},
+		{
+			"Id": "Part2",
+			"Name": "眉毛"
+		},
+		{
+			"Id": "Part3",
+			"Name": "鼻パーツ"
+		},
+		{
+			"Id": "Part4",
+			"Name": "口パーツ"
+		}
+	],
+	"CombinedParameters": [
+		[
+			"ParamFHC",
+			"ParamFHC2"
+		],
+		[
+			"ParamSHR",
+			"ParamSHR2"
+		],
+		[
+			"ParamSHL",
+			"ParamSHL2"
+		],
+		[
+			"ParamEyeBallX",
+			"ParamEyeBallY"
+		],
+		[
+			"ParamMouthForm",
+			"ParamMouthOpenY"
+		]
+	]
+}
